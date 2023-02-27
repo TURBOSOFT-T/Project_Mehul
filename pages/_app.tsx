@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Header />
 
       <Component {...pageProps} />
-
+<Calendar />
       <Footer />
    
   
