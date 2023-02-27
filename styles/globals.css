@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "lato", sans-serif;
+  font-size: 20px;
+  background-color: #D7E5f0;  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+
+/* CONTACT PAGE */
+.link {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+  font-size: 17px;
+}
+
+input {
+  height: 50px;
+  width: 500px;
+  margin: 10px 0;
+  font-size: 17px;
+  padding-left: 3px;
+}
+
+input[type=submit] {
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+/* HOME PAGE */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.profile {
+  display: flex;
+  max-width: 900px;
+  margin: 180px auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(59, 58, 58);
+  margin: 0 25px;
+  transition: 0.2s;
+}
+
+.navbar a:hover {
+  background-color: blue;
+  color: white;
+  padding: 8px 8px;
+  border-radius: 6px;
+}
+
+.intro {
+  margin: 0 90px;
+}
+
+.contact a {
+  margin: 0 15px;
+}
